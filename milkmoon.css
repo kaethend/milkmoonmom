@@ -64,8 +64,6 @@ p a:hover{
   border:2px solid #eee;
   background-image: url("https://lh3.googleusercontent.com/ctyggfkfNtdczTAyfW6xcVoQM0hgwOJmfa1zG3fuAei-j8GfR_if2wAAgcScOUtq6FWY1IEux0UeCPNFPXVzqhwRfdqLzFmIBPvMgTZzee1Z8MgQPoq8bFnJGRjVVDsZuiGI7EMvvA");
   background-position:center center;
-  z-index:100;
-  margin-top:-80px;
 }
 .nav{
   font-family:'Helvetica', sans-serif;
