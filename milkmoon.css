@@ -75,13 +75,13 @@ ul li{
 }
 .image-kate{
   background-size:cover;
-  min-height:300px;
+  min-height:420px;
   width:100%;
   border-radius: 3px;
   border:2px solid #eee;
   background-image: url("https://lh3.googleusercontent.com/ctyggfkfNtdczTAyfW6xcVoQM0hgwOJmfa1zG3fuAei-j8GfR_if2wAAgcScOUtq6FWY1IEux0UeCPNFPXVzqhwRfdqLzFmIBPvMgTZzee1Z8MgQPoq8bFnJGRjVVDsZuiGI7EMvvA");
-  background-position:center center;
-  margin-after: 12px;
+  background-position:50% 40%;
+  margin-bottom: 12px;
 }
 .nav{
   font-family:'Helvetica', sans-serif;
