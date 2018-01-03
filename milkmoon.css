@@ -69,9 +69,9 @@ ul li{
 }
 .image-kate{
   background-size:cover;
-  height:200px;
-  width:200px;
-  border-radius: 100%;
+  min-height:200px;
+  width:100%;
+  border-radius: 3px;
   border:2px solid #eee;
   background-image: url("https://lh3.googleusercontent.com/ctyggfkfNtdczTAyfW6xcVoQM0hgwOJmfa1zG3fuAei-j8GfR_if2wAAgcScOUtq6FWY1IEux0UeCPNFPXVzqhwRfdqLzFmIBPvMgTZzee1Z8MgQPoq8bFnJGRjVVDsZuiGI7EMvvA");
   background-position:center center;
