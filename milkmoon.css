@@ -4,11 +4,13 @@ body{
 /*div {outline: solid orange 1px;}*/
 .gradient-2 {
   background:linear-gradient(-90deg, rgba(200, 1, 100, 0.45), rgba(255, 255, 100, 0.45)); 
-  padding:50px 0;
+  padding:30px 0;
+  margin-bottom:15px;
 }
 .gradient {
   background:linear-gradient(-33deg, rgba(1000, 0, 0, 0.45), rgba(255, 255, 100, 0.45)); 
-  padding:50px 0;
+  padding:30px 0;
+  margin-bottom:15px;
 }
 h1{
   font-family:'Helvetica', sans-serif;
