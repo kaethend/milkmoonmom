@@ -123,18 +123,17 @@ a.nav-button:hover{
 }
 .black-circle{
   border-radius:50%;
-  width:80px;
-  height:80px;
+  width:100%;
   background-color:#4a4a4a;
 }
 .white-circle{
   border-radius:50%;
-  width:80px;
-  height:80px;
+  width:100%;
   background-color:#fffffa;
   cursor:pointer;
   opacity:.92;
   transition:.8s;
+  padding-bottom: 100%;
 }
 .white-circle:hover{
   opacity:.98;
