@@ -84,7 +84,7 @@ ul li{
   background-position:50% 40%;
   margin-bottom: 12px;
 }
-.nav{
+/*.nav{
   font-family:'Helvetica', sans-serif;
   color:#4a4a4a;
   font-size:18px;
@@ -120,7 +120,7 @@ a.nav-button:hover{
   text-decoration:none;
   background-color:#6a6a6a;
   color:#fff;
-}
+}*/
 .black-circle{
   border-radius:50%;
   width:100%;
