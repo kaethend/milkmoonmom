@@ -13,35 +13,49 @@
 
   <body>
 
-<div class="nav fluid-container">
-  <div class="container">
-  <div class="row">
-      <div class="col-2">
-        <div class="black-circle">
-          <a href="/index.html"><div class="white-circle"></div></a>
+<div class="fluid-container">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffffa;">
+  <a class="navbar-brand col-lg-1 col-md-2 col-3" href="/index.html">
+  <div class="black-circle">
+          <div class="white-circle"></div>          
         </div>
-      </a>    
-  </div>     
-  <div class="nav-item col">
-      <a href="/index.html">Milk Moon</a>    
-  </div>   
-  <div class="nav-item col-md-4">
-      <a href="#">Doula &amp; Breastfeeding Services</a>    
+        </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav col-md-12">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Milk Moon</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/services.html">Doula &amp; breastfeeding services<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html">Meet Kate</a>
+      </li>    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">(650) 265-7211</a>
+          <a class="dropdown-item" href="http://www.m.me/kaethend">@kaethend</a>        
+          <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdJYPasZ62lfpK1w7mj5KgW0oPdtb4xm4BB-Fr1452w9iaGUg/viewform?usp=sf_link">Online inquiry form</a>
+        </div>
+      </li>        
+    </ul>
   </div>
-  <div class="nav-item col">
-      <a href="/about.html">Meet Kate</a>      
-  </div>      
-  <div class="nav-item col">
-    <a href="http://m.me/kaethend" class="nav-button">Contact</a> 
-  </div>      
-  </div>
+</nav>
 </div>
 </div>
 
 <div class="fluid-container gradient-3">
   <div class="container">
   <div class="row">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-lg-8 col-md-12 ml-auto mr-auto">
       <h1>Postpartum doula &amp; breastfeeding services</h1>
       <h3>Learn more about pospartum doula and breastfeeding services for your family.</h3>
     </div>
@@ -50,7 +64,7 @@
 </div>
 	<div class="container">
     <div class="row">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-lg-8 col-md-12 ml-auto mr-auto">
       <h2>Services offered</h2>
       	<p>Here is a partial list of the services offered by Kate. If you are looking for something specific that isn't here, please let her know when you chat.</p>
       	<h3>Infant care &amp; education</h3>
@@ -86,22 +100,24 @@
     </div>
   </div>
 </div>
-</div> 
+</div>
+
 <div class="footer container">
-  <div class="row">
-  <div class="footer-col col-md-2 offset-md-2 col-xs-12">
+  <div class="row mr-auto ml-auto">
+  <div class="footer-col col-lg-2 col-md-3 col-12">
       <h4>Contact</h4>
-      <p>(650) 265-7211 </p>
-      <p><a href="m.me/kaethend">@kaethend</a></p>
+      <p>(650) 265-7211</p>
+      <p><a href="http://www.m.me/kaethend">@kaethend</a></p>
       <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJYPasZ62lfpK1w7mj5KgW0oPdtb4xm4BB-Fr1452w9iaGUg/viewform?usp=sf_link">Online inquiry form</a></p>       
   </div>    
-  <div class="footer-col col-md-6 col-xs-12">
+  <div class="footer-col col">
       <h4>Location</h4>
       <p>Based in the South San Francisco Bay Area, serving all counties, including Santa Cruz - curious if Kate can come to you? Just ask!</p>  
       <p>&copy; 2018 Milk Moon</p>
   </div>      
   </div>
-</div>    
+</div>     
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
